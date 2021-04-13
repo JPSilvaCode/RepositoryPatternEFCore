@@ -9,9 +9,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infrastructure", "2 - Infrastructure", "{C935FCB4-C00D-4A7A-8F02-9F448964D728}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAEFC.Service.Api", "src\RAEFC.Service.Api\RAEFC.Service.Api.csproj", "{8EE1C7F3-756C-4A20-B7A2-037E738C3139}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EE1C7F3-756C-4A20-B7A2-037E738C3139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE1C7F3-756C-4A20-B7A2-037E738C3139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE1C7F3-756C-4A20-B7A2-037E738C3139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE1C7F3-756C-4A20-B7A2-037E738C3139}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EE1C7F3-756C-4A20-B7A2-037E738C3139} = {97476FA7-6AC1-4373-A0B2-2A538EE25DA6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF4D7437-B5A9-46F5-B8D6-3EEEE9454305}
