@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAEFC.Service.Api", "src\RA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAEFC.Domain", "src\RAEFC.Domain\RAEFC.Domain.csproj", "{9A401469-52B6-46A4-882B-F73CD0519DFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAEFC.Infrastructure.Repository", "src\RAEFC.Infrastructure.Repository\RAEFC.Infrastructure.Repository.csproj", "{C4FD2B4E-DF25-4363-B523-7B3F9A16DA6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9A401469-52B6-46A4-882B-F73CD0519DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A401469-52B6-46A4-882B-F73CD0519DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A401469-52B6-46A4-882B-F73CD0519DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4FD2B4E-DF25-4363-B523-7B3F9A16DA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FD2B4E-DF25-4363-B523-7B3F9A16DA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FD2B4E-DF25-4363-B523-7B3F9A16DA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FD2B4E-DF25-4363-B523-7B3F9A16DA6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8EE1C7F3-756C-4A20-B7A2-037E738C3139} = {97476FA7-6AC1-4373-A0B2-2A538EE25DA6}
 		{9A401469-52B6-46A4-882B-F73CD0519DFF} = {DB3EFDEB-33DB-497F-BA7F-E3F6DE1F0D0D}
+		{C4FD2B4E-DF25-4363-B523-7B3F9A16DA6E} = {C935FCB4-C00D-4A7A-8F02-9F448964D728}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF4D7437-B5A9-46F5-B8D6-3EEEE9454305}
