@@ -34,6 +34,8 @@ namespace RAEFC.Service.Api
         {
             services.AddApiConfiguration();
 
+            services.AddDatabaseConfiguration(Configuration);
+
             services.AddVersionConfiguration();
 
             services.AddSwaggerConfiguration();
