@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace RAEFC.Domain.Interafaces.Repository
 {
-    public interface ICustomerRepository : IRepository<Customer>
+    public interface ICustomerRepository : IRepositoryBase<Customer>
     {
         Task<Customer> GetByEmail(string email);
     }

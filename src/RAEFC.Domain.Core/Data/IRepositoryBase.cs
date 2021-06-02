@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace RAEFC.Domain.Core.Data
 {
-    public interface IRepository<T> : IDisposable where T : IAggregateRoot
+    public interface IRepositoryBase<T> : IDisposable where T : IAggregateRoot
     {
         Task<T> GetById(Guid id);
         Task<IEnumerable<T>> GetAll();

@@ -22,9 +22,7 @@ namespace RAEFC.Service.Api
                 .AddEnvironmentVariables();
 
             if (hostEnvironment.IsDevelopment())
-            {
                 builder.AddUserSecrets<Startup>();
-            }
 
             Configuration = builder.Build();
         }
@@ -34,11 +32,15 @@ namespace RAEFC.Service.Api
         {
             services.AddApiConfiguration();
 
+            services.AddAutoMapperConfiguration();
+
             services.AddDatabaseConfiguration(Configuration);
 
             services.AddVersionConfiguration();
 
             services.AddSwaggerConfiguration();
+
+            services.RegisterServices();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
